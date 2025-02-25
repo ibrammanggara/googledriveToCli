@@ -6,7 +6,6 @@ After=network-online.target
 Type=simple
 ExecStart=/usr/local/bin/rclone-mount.sh
 Restart=on-failure
-RestartSec=5
 
 [Install]
 WantedBy=default.target
