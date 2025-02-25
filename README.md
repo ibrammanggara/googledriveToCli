@@ -56,6 +56,11 @@ chmod +x /etc/systemd/system/rclone-mount.service
 chmod +x /usr/local/bin/rclone-mount.sh
 chmod 777 (directory)
 ```
+---
+### edit user_allow_other (delete #)
+```
+nano /etc/fuse.conf
+```
 
 ##
 
