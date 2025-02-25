@@ -54,7 +54,10 @@ chmod +x /usr/local/bin/rclone-mount.sh
 chmod 777 (directory)
 ```
 
+##
 
+reference :
+https://www.youtube.com/watch?v=I3qTt6t6daU
 
 
 
