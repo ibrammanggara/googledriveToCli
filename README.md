@@ -27,6 +27,8 @@ mkdir directory
 rclone mount (your name directory config): directory
 ```
 
+# 24h online
+
 ## edit file rclone-mount.sh 
 ```
 sudo nano /usr/local/bin/rclone-mount.sh
