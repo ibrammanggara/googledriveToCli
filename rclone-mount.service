@@ -4,7 +4,7 @@ After=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/root/exc.sh
+ExecStart=/usr/local/bin/rclone-mount.sh
 Restart=on-failure
 
 [Install]
