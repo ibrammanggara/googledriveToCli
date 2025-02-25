@@ -2,11 +2,14 @@
 
 ---
 
-## installation ubuntu
+## installation ubuntu/arch linux
 
 ```
-apt update
-apt install rclone -y
+sudo apt update
+sudo apt install rclone -y
+```
+```
+sudo pacman -S rclone
 ```
 
 ## configure rclone
