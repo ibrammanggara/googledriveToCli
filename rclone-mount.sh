@@ -1,2 +1,2 @@
 #!/bin/bash
-rclone mount ibramgd: /root/file --vfs-cache-mode full --allow-other
+rclone mount (your name connection): /root/file --vfs-cache-mode full --allow-other
