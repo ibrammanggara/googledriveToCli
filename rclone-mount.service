@@ -1,0 +1,11 @@
+[Unit]
+Description=Rclone Mount Google Drive
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/root/exc.sh
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
